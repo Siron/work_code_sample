@@ -11,7 +11,7 @@ var Broadcaster = function() {
   this.client = new AWS.SQS({
     region: "eu-west-1",
     params: {
-      QueueUrl: "https://sqs.eu-west-1.amazonaws.com/456265475845/calculate-trending-development"
+      QueueUrl: "url"
     }
   });
 }

@@ -6,7 +6,7 @@ var async = require('async'),
 
 // Grab the message and process it however we need to.
 var app = Consumer.create({
-  queueUrl: "https://sqs.eu-west-1.amazonaws.com/456265475845/calculate-trending-development",
+  queueUrl: "url",
   region: "eu-west-1",
   batchSize: 1,
   handleMessage: function (message, done) {

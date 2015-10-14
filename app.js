@@ -14,8 +14,8 @@ var restrict = auth({ jwtTokenSecret: 'jwttoken', restrict: true });
 
 // Please put your own credentials here
 AWS.config.update({
-  accessKeyId: 'AKIAJQIXMIGQGDPTT6AA',
-  secretAccessKey: '4Qs6v76YeoNJGa1glOPslEu3Ql6CWBMeNLht3v2G'
+  accessKeyId: 'id',
+  secretAccessKey: 'key'
 });
 
 /**
